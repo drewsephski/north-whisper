@@ -1,3 +1,17 @@
+# North Whisper
+
+Desktop dictation, meeting transcription, and notes. Based on [OpenWhispr](https://github.com/OpenWhispr/openwhispr), under the MIT license.
+
+[Download for Mac (Apple Silicon)](https://github.com/drewsephski/north-whisper/releases/latest/download/North-Whisper-mac-arm64.dmg)
+
+The initial Mac release is signed but not notarized. macOS may require approval in System Settings > Privacy & Security after the first launch attempt. Intel Mac and Windows builds are not published yet.
+
+## Development
+
+Use Node.js 24 or newer, then run `npm ci` and `npm run dev`.
+
+## Upstream documentation
+
 <p align="center">
   <img src="src/assets/logo.svg" alt="OpenWhispr" width="120" />
 </p>
